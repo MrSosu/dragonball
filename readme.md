@@ -21,8 +21,8 @@ __Nota__: un diverso attacco può essere nel kit di più personaggi. Per esempio
 Torniamo ai personaggi. Essi possono essere di diverso tipo: Umano, Sayan, Namecciano, Cyborg,
 Demone (per esempio Majin-bu) e Alieno (per esempio Freezer). Tutti i personaggi, a parte i 4
 attacchi personali, hanno un attacco fisico di base, e una probabilità che esso vada a segno che
-cambia a seconda del personaggio. Questo attacco fisico di base è a tutti gli effetti un attacco, e il
-suo danno è uguale alla forza fisica del personaggio.
+cambia a seconda del personaggio. Questo attacco fisico di base è a tutti gli effetti un attacco, il
+suo danno è uguale alla forza fisica del personaggio e la sua probabilità di colpire è 1 - agilità del personaggio.
 Vogliamo inoltre che i personaggi implementino l'interfaccia Comparable, facendo in modo che un personaggio
 sia confrontato rispetto agli altri in base alla loro forza fisica.
 Creare infine una classe Combattimento che rappresenta un combattimento tra due personaggi.
